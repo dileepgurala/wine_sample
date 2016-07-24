@@ -19,7 +19,6 @@ source $bp_dir/compile-extensions/lib/common
 source $bp_dir/bin/common.sh
 
 mkdir -p $vendor_dir
-status "printing build dir"
 status "Extracting JRE."
 cp $JRE_ARHIVE_FILE $vendor_dir
 pushd $vendor_dir
